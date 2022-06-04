@@ -62,7 +62,6 @@ body {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid rebeccapurple;
 }
 .section {
   display: block;
@@ -161,9 +160,6 @@ body {
 /* ========/header======= */
 
 /* ========hero======= */
-
-.hero-content {
-}
 
 .hero {
   background-color: #2f303a;
