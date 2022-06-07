@@ -209,17 +209,15 @@ h3 {
 }
 /* ========/hero======= */
 /* ========services======= */
-
+.services-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .services-list {
   display: flex;
   justify-content: space-between;
   max-width: 1170px;
 }
-.services-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .item {
   margin-right: 30px;
 }
@@ -234,6 +232,7 @@ h3 {
 
 .what-we-do-section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .services-container {
   display: flex;
@@ -272,8 +271,9 @@ h3 {
 /* ========/services======= */
 /* ========about======= */
 
-.our-team-section {
+.about-section {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .about-container {
   display: flex;
