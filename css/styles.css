@@ -176,20 +176,20 @@ h3 {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-}
-/*
-.overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient (to bottom, rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/background/hero-img.jpg);
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
- 
-}  */
+  background-repeat: no-repeat;
+}
+
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -280,6 +280,8 @@ h3 {
   width: 270px;
 }
 
+
+
 /* ========/services======= */
 /* ========about======= */
 
@@ -337,9 +339,39 @@ h3 {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--secondary-text-color-theme-dark);
+  margin-bottom: 16px;
 }
+
+.team-soc-list {
+  display: flex;
+  justify-content: center;
+}
+.team-soc-item {
+  width: 44px;
+  height: 44px;
+  margin-left: 10px;
+}
+.team-soc-item:first-child {
+  margin-left: 0;
+}
+.team-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ffffff;
+  fill: #afb1b8;
+}
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+  background-color: var(--accent-color);
+  fill: white;
+}
+
 /* ========about/======= */
 
 /* ========footer ======= */
