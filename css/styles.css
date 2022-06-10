@@ -67,6 +67,7 @@ h3 {
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid red;
 }
 .section {
   display: block;
@@ -165,6 +166,16 @@ h3 {
 .contact-number-phone:hover,
 .contact-number-phone:focus {
   color: var(--accent-color);
+}
+
+.menu-item .contact-mail {
+  display: flex;
+}
+.header-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 /* ========/header======= */
@@ -280,8 +291,6 @@ h3 {
   width: 270px;
 }
 
-
-
 /* ========/services======= */
 /* ========about======= */
 
@@ -374,7 +383,39 @@ h3 {
 
 /* ========about/======= */
 
+/* ========CLIENT/======= */
+.client-section {
+  padding-top: 94px;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+}
+.client-item {
+}
+.client-link {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.client-icon {
+}
+
+/* ========CLIENT/======= */
+
 /* ========footer ======= */
+
+.footer-item {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
 .footer {
   background-color: #2f303a;
