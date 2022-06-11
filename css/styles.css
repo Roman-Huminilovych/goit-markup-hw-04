@@ -6,6 +6,7 @@
   --primary-text-color-theme-light: #ffffff;
   --secondary-text-color-theme-light: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
+  --icon-team-color: #afb1b8;
 }
 
 .link {
@@ -424,8 +425,8 @@ h3 {
 
 .customers-link:hover,
 .customers-link:focus {
-  fill: var(--active-web-color);
-  border-color: var(--active-web-color);
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* ========FOOTER ======= */
