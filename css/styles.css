@@ -175,7 +175,7 @@ h3 {
 .header-flex {
   display: flex;
 }
-.menu-item .contact-mail .contact-number-phone {
+.menu-item .contact-mail + .contact-number-phone {
   display: flex;
 }
 .header-icon {
