@@ -315,6 +315,9 @@ h3 {
 
 /* ========TEAM======= */
 
+.section-team {
+  background-color: #f5f4fa;
+}
 .about-section {
   padding-bottom: 94px;
   padding-top: 94px;
