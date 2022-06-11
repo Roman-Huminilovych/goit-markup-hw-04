@@ -466,6 +466,7 @@ h3 {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
+  margin-right: 70px;
 }
 
 .contact-addres:hover,
@@ -519,10 +520,6 @@ h3 {
 
 .footer > .container {
   display: flex;
-}
-
-.footer-contacts {
-  margin-right: 70px;
 }
 
 .footer-soc {
