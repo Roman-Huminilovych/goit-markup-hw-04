@@ -396,7 +396,7 @@ h3 {
   height: 100%;
   border-radius: 50%;
   background-color: #ffffff;
-  fill: #afb1b8;
+  fill: var(--icon-team-color);
 }
 
 .team-soc-link:hover,
@@ -408,6 +408,11 @@ h3 {
 /* ========about/======= */
 
 /* ========CUSTOMERS/======= */
+
+.customers-item {
+  display: flex;
+  justify-content: center;
+}
 .customers-link {
   width: 170px;
   height: 92px;
