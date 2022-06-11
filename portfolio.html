@@ -22,36 +22,42 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container header-flex">
         <nav class="page-nav">
           <a class="logo link" href="" lang="en"
             >Web<span class="logo-theme-dark">Studio</span></a
           >
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Студія</a>
+              <a class="menu-link link" href="#">Студія</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link accent current" href="">Портфоліо</a>
+              <a class="menu-link link accent current" href="./index.html"
+                >Портфоліо</a
+              >
             </li>
             <li class="menu-item">
               <a class="menu-link link" href="#contact">Контакти</a>
             </li>
           </ul>
-
-          <ul class="contact-nav list">
-            <li class="menu-item">
-              <a class="contact-mail link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="menu-item">
-              <a class="contact-number-phone link" href="tel:+38096111111"
-                >+380 96 111 11 11</a
-              >
-            </li>
-          </ul>
         </nav>
+
+        <ul class="contact-nav list">
+          <li class="menu-item">
+            <a class="contact-mail link" href="mailto:info@devstudio.com">
+              <svg class="header-icon">
+                <use href="./images/icons.svg#icon-mail"></use></svg
+              >info@devstudio.com
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="contact-number-phone link" href="tel:+38096111111">
+              <svg class="header-icon">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg
+              >+380 96 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -225,36 +231,88 @@
           </ul>
         </div>
       </section>
+
       <footer id="contact" class="footer">
         <div class="container">
-          <div class="footer-logo">
-            <a class="logo link" href="" lang="en"
-              >Web<span class="logo-theme-light">Studio</span></a
-            >
+          <div class="footer-container">
+            <div class="footer-logo">
+              <a class="logo link" href="" lang="en"
+                >Web<span class="logo-theme-light">Studio</span></a
+              >
+            </div>
+            <address>
+              <ul class="list">
+                <li class="footer-contact">
+                  <a
+                    class="contact-map link"
+                    href="https://goo.gl/maps/MqzZdGGHkDWmwsRv9"
+                    target="blank"
+                    rel="noopener noreferrer"
+                    >м. Київ, пр-т Лесі Українки, 26</a
+                  >
+                </li>
+                <li class="footer-contact">
+                  <a class="contact-addres link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="footer-tel">
+                  <a class="contact-addres link" href="tel:+380991111111"
+                    >+380 99 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
           </div>
-          <address>
-            <ul class="list">
-              <li class="footer-contact">
+          <div class="footer-soc">
+            <h3 class="footer-third-title">Приєднуйтесь</h3>
+            <ul class="footer-soc-list list">
+              <li class="footer-soc-item">
                 <a
-                  class="contact-map link"
-                  href="https://goo.gl/maps/MqzZdGGHkDWmwsRv9"
-                  target="blank"
-                  rel="noopener noreferrer"
-                  >м. Київ, пр-т Лесі Українки, 26</a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  class="footer-soc-link link"
                 >
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer-contact">
-                <a class="contact-addres link" href="mailto:info@example.com"
-                  >info@example.com</a
+              <li class="footer-soc-item">
+                <a
+                  href="https://twitter.com/"
+                  target="_blank"
+                  class="footer-soc-link link"
                 >
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="footer-tel">
-                <a class="contact-addres link" href="tel:+380991111111"
-                  >+380 99 111 11 11</a
+              <li class="footer-soc-item">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  class="footer-soc-link link"
                 >
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-soc-item">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  class="footer-soc-link link"
+                >
+                  <svg class="footer-soc-icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
+          </div>
         </div>
       </footer>
     </main>
