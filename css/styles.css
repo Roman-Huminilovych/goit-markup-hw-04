@@ -416,7 +416,7 @@ h3 {
   align-items: center;
   border: 1px solid var(--icon-team-color);
   border-radius: 4px;
-  color: var(--icon-team-color);
+  fill: var(--icon-team-color);
 }
 
 .customers-item:not(:last-child) {
@@ -425,7 +425,7 @@ h3 {
 
 .customers-link:hover,
 .customers-link:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
   border-color: var(--accent-color);
 }
 
