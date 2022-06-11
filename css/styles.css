@@ -102,11 +102,6 @@ h3 {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.contact-mail:hover,
-.contact-mail:focus,
-.current {
-  color: var(--accent-color);
-}
 .contact-number-phone {
   font-weight: 500;
   font-size: 14px;
@@ -114,8 +109,17 @@ h3 {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
+.contact-mail:hover,
+.contact-mail:focus,
+.current {
+  color: var(--accent-color);
+}
 .contact-number-phone:hover,
 .contact-number-phone:focus {
+  color: var(--accent-color);
+}
+.accent {
   color: var(--accent-color);
 }
 
@@ -126,7 +130,6 @@ h3 {
   display: flex;
   align-items: center;
 }
-
 .menu {
   display: flex;
   margin-left: 93px;
@@ -230,14 +233,18 @@ h3 {
   cursor: pointer;
   color: var(--primary-text-color-theme-light);
   background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
   padding: 10px 32px;
   min-width: 200px;
 }
-/* ========/hero======= */
-/* ========services======= */
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* ========SERVICES======= */
 .services-section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -258,7 +265,17 @@ h3 {
 .item:nth-last-child(-n + 4) {
   margin-bottom: 0;
 }
-
+.services-icon-bg {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+/*=================what-we-do-section=====================*/
 .what-we-do-section {
   padding-bottom: 94px;
 }
