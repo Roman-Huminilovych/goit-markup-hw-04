@@ -436,16 +436,6 @@ h3 {
 
 /* ========FOOTER ======= */
 
-.footer-item {
-  font-family: var(--primary-font-family);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1, 14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
 .footer {
   background-color: #2f303a;
   height: 252px;
@@ -460,7 +450,6 @@ h3 {
 .footer-contact {
   margin-bottom: 9px;
 }
-
 .contact-map {
   font-weight: 400;
   font-style: normal;
@@ -484,7 +473,61 @@ h3 {
   color: var(--accent-color);
 }
 
-/* ========footer/======= */
+/* ========footer-sic-link======= */
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer-third-title {
+  font-weight: 700;
+  font-size: inherit;
+  line-height: 1.15;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  color: #fff;
+}
+
+.footer-soc-list {
+  display: flex;
+}
+
+.footer-soc-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.footer-soc-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  fill: #fff;
+}
+
+.footer-soc-link:focus,
+.footer-soc-link:hover {
+  background-color: var(--accent-color);
+}
+
+.footer > .container {
+  display: flex;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.footer-soc {
+  padding-top: 12px;
+}
 
 /* ========filter for portfolio======= */
 .filter-container {
