@@ -70,9 +70,7 @@ h3 {
   outline: 1px solid red;
 }
 .section {
-  display: block;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 .img {
   display: block;
